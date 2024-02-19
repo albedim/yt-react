@@ -1,0 +1,72 @@
+.screen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  .box{
+    border: 1px solid #d5d5d5;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .form div{
+    padding-bottom: 5px;
+  }
+  
+  .form div input{
+    padding-left: 15px;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+    outline-color: orange;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .button button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+  }
+  
+  .fp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  
+  .fp p{
+    cursor: pointer
+  }
+  
+  .button button:hover{
+    background-color: transparent;
+    animation: normal;
+    color: orange;
+  }
+  
+  
